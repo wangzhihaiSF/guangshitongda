@@ -1,5 +1,4 @@
-from sms_number import data_config
-from sms_number import operation_excel
+from sms_number.process_excel import operation_excel, data_config
 
 
 class GetData:
