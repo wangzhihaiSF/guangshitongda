@@ -1,11 +1,12 @@
 import csv
 import json
+import os
 
 
 class Auto_File(object):
     def __init__(self):
-        self.file = r"C:\Users\DELL\Desktop\statement\messages1118.csv"
-        self.save_file_name = "messages.csv"
+        self.read_file = r"C:\Users\DELL\Desktop\statement\messages1122.csv"
+        self.save_file_name = r"D:\PycharmProjects\guangshitongda\sms_number\process_csv\messages.csv"
 
     def load_json(self):
         with open("sms_num.json", 'r', encoding="utf-8") as f:
@@ -14,10 +15,15 @@ class Auto_File(object):
 
     def read_csv(self):
         nums_list = []
-        with open(self.file, "r", encoding="utf-8") as fp:
+        with open(self.read_file, "r", encoding="utf-8") as fp:
             for line in fp:
                 nums_list.append(line.split("	"))
         return nums_list
+
+    def is_exists(self):
+        if os.path.exists(self.save_file_name):
+            # 删除文件,path为文件路径
+            os.remove(self.save_file_name)
 
     def write_data(self, data):
         file_name = self.save_file_name
@@ -44,11 +50,10 @@ class Auto_File(object):
                 line.insert(1, "")
                 line.insert(2, "")
                 line[3] = line[3][:-1]
-            print(line)
-
             self.write_data(line)
 
 
 if __name__ == "__main__":
     auto = Auto_File()
+    auto.is_exists()
     auto.my_main()

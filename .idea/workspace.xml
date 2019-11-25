@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5761a7fb-a6f1-4f67-85a8-bb9a6ad8bdef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sms_number/process_csv/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sms_number/process_csv/a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sms_number/process_csv/process_csv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sms_number/process_csv/sms_num.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sms_number/process_excel/messages.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sms_number/process_excel/run_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sms_number/data_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/sms_number/process_excel/data_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sms_number/get_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/sms_number/process_excel/get_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sms_number/operation_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/sms_number/process_excel/operation_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sms_number/process_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/sms_number/process_excel/process_log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sms_number/real_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/sms_number/process_excel/real_log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sms_number/run_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/csv_write.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/dict_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/te_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sms_number/process_csv/messages.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sms_number/process_csv/messages.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sms_number/process_csv/process_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/sms_number/process_csv/process_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sms_number/process_csv/sms_num.json" beforeDir="false" afterPath="$PROJECT_DIR$/sms_number/process_csv/sms_num.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sms_number/process_excel/operation_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/sms_number/process_excel/operation_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sms_number/process_excel/sms_num.json" beforeDir="false" afterPath="$PROJECT_DIR$/sms_number/process_excel/sms_num.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/sms_number/process_csv/a.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -48,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sms_number/process_excel/operation_excel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1698">
-              <caret line="60" column="51" lean-forward="true" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
+            <state relative-caret-position="138">
+              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -60,53 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sms_number/process_excel/sms_num.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="837" column="28" lean-forward="true" selection-end-line="845" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/xlrd/sheet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13838">
-              <caret line="418" selection-start-line="418" selection-end-line="418" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sms_number/process_csv/process_csv.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1016">
-              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sms_number/process_csv/messages.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="102">
-              <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-            </state>
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sms_number/process_csv/Readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="34">
-                <caret line="1" selection-start-line="1" selection-end-line="1" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="254">
+              <caret line="885" column="1" lean-forward="true" selection-end-line="885" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -114,8 +59,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sms_number/process_csv/sms_num.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="841" column="22" lean-forward="true" selection-start-line="841" selection-start-column="22" selection-end-line="841" selection-end-column="22" />
+            <state relative-caret-position="284">
+              <caret line="879" column="12" lean-forward="true" selection-start-line="879" selection-start-column="12" selection-end-line="879" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sms_number/process_csv/messages.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="3366">
+              <caret line="99" column="21" lean-forward="true" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sms_number/process_csv/process_csv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,6 +102,7 @@
     <findStrings>
       <find>1069153107761900015</find>
       <find>10659057101625253002</find>
+      <find>953115881106900015</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -155,17 +125,18 @@
         <option value="$PROJECT_DIR$/process_csv.py" />
         <option value="$PROJECT_DIR$/sms_number/process_excel/run_test.py" />
         <option value="$PROJECT_DIR$/sms_number/process_csv/a.py" />
+        <option value="$PROJECT_DIR$/sms_number/process_csv/Readme.md" />
+        <option value="$PROJECT_DIR$/sms_number/process_excel/sms_num.json" />
+        <option value="$PROJECT_DIR$/sms_number/process_excel/operation_excel.py" />
         <option value="$PROJECT_DIR$/sms_number/process_csv/sms_num.json" />
         <option value="$PROJECT_DIR$/sms_number/process_csv/messages.csv" />
-        <option value="$PROJECT_DIR$/sms_number/process_csv/Readme.md" />
-        <option value="$PROJECT_DIR$/sms_number/process_excel/operation_excel.py" />
         <option value="$PROJECT_DIR$/sms_number/process_csv/process_csv.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="95" />
-    <option name="y" value="50" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1620" />
     <option name="height" value="920" />
   </component>
@@ -184,6 +155,17 @@
               <item name="guangshitongda" type="b2602c69:ProjectViewProjectNode" />
               <item name="guangshitongda" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="guangshitongda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guangshitongda" type="462c0819:PsiDirectoryNode" />
+              <item name="sms_number" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guangshitongda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guangshitongda" type="462c0819:PsiDirectoryNode" />
+              <item name="sms_number" type="462c0819:PsiDirectoryNode" />
+              <item name="process_csv" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -192,8 +174,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Document/GitProject/log_analysis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LeetCode" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
@@ -363,7 +346,11 @@
       <workItem from="1573785083727" duration="2151000" />
       <workItem from="1573803475186" duration="1421000" />
       <workItem from="1574043650658" duration="13811000" />
-      <workItem from="1574128666290" duration="4507000" />
+      <workItem from="1574128666290" duration="5853000" />
+      <workItem from="1574218933007" duration="5113000" />
+      <workItem from="1574303871683" duration="2053000" />
+      <workItem from="1574390081970" duration="2429000" />
+      <workItem from="1574646962201" duration="3032000" />
     </task>
     <servers />
   </component>
@@ -376,17 +363,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46815000" />
+    <option name="totallyTimeSpent" value="60788000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="95" y="50" width="1620" height="920" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18141025" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19215938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36895674" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26010782" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39892185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -415,8 +402,8 @@
     <SUITE FILE_PATH="coverage/guangshitongda$run_test.coverage" NAME="run_test Coverage Results" MODIFIED="1573791954933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sms_number" />
     <SUITE FILE_PATH="coverage/guangshitongda$a.coverage" NAME="a Coverage Results" MODIFIED="1574130402521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sms_number/process_csv" />
     <SUITE FILE_PATH="coverage/guangshitongda$pytest_in_test_csv_py.coverage" NAME="pytest in test_csv.py Coverage Results" MODIFIED="1573198596515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/guangshitongda$operation_excel__1_.coverage" NAME="operation_excel (1) Coverage Results" MODIFIED="1574132933756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sms_number/process_excel" />
-    <SUITE FILE_PATH="coverage/guangshitongda$process_csv.coverage" NAME="process_csv Coverage Results" MODIFIED="1574132997683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sms_number/process_csv" />
+    <SUITE FILE_PATH="coverage/guangshitongda$operation_excel__1_.coverage" NAME="operation_excel (1) Coverage Results" MODIFIED="1574647018203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sms_number/process_excel" />
+    <SUITE FILE_PATH="coverage/guangshitongda$process_csv.coverage" NAME="process_csv Coverage Results" MODIFIED="1574670941696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sms_number/process_csv" />
     <SUITE FILE_PATH="coverage/guangshitongda$operation_excel.coverage" NAME="operation_excel Coverage Results" MODIFIED="1573803698643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sms_number" />
   </component>
   <component name="editorHistoryManager">
@@ -475,51 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sms_number/process_excel/run_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/xlrd/sheet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13838">
-          <caret line="418" selection-start-line="418" selection-end-line="418" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sms_number/process_csv/a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sms_number/process_excel/sms_num.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="837" column="28" lean-forward="true" selection-end-line="845" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sms_number/process_csv/sms_num.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="841" column="22" lean-forward="true" selection-start-line="841" selection-start-column="22" selection-end-line="841" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sms_number/process_csv/messages.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="102">
-          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sms_number/process_csv/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -530,23 +472,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/xlrd/sheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="418" selection-start-line="418" selection-end-line="418" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sms_number/process_excel/run_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sms_number/process_csv/a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sms_number/process_excel/operation_excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1698">
-          <caret line="60" column="51" lean-forward="true" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
+        <state relative-caret-position="138">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sms_number/process_csv/sms_num.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="879" column="12" lean-forward="true" selection-start-line="879" selection-start-column="12" selection-end-line="879" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sms_number/process_excel/sms_num.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="885" column="1" lean-forward="true" selection-end-line="885" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sms_number/process_csv/process_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1016">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        <state relative-caret-position="420">
+          <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sms_number/process_csv/messages.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="3366">
+          <caret line="99" column="21" lean-forward="true" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
         </state>
       </provider>
     </entry>
