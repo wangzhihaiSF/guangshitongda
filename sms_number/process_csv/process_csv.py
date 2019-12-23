@@ -3,9 +3,9 @@ import json
 import os
 
 
-class Auto_File(object):
+class AutoFile(object):
     def __init__(self):
-        self.read_file = r"C:\Users\DELL\Desktop\statement\messages1122.csv"
+        self.read_file = r"C:\Users\DELL\Desktop\statement\weekmessages1206.csv"
         self.save_file_name = r"D:\PycharmProjects\guangshitongda\sms_number\process_csv\messages.csv"
 
     def load_json(self):
@@ -15,10 +15,14 @@ class Auto_File(object):
 
     def read_csv(self):
         nums_list = []
-        with open(self.read_file, "r", encoding="utf-8") as fp:
-            for line in fp:
-                nums_list.append(line.split("	"))
-        return nums_list
+        try:
+            with open(self.read_file, "r", encoding="utf-8") as fp:
+                for line in fp:
+                    nums_list.append(line.split("	"))
+            return nums_list
+        except FileNotFoundError:
+            print("文件不存在")
+            return nums_list
 
     def is_exists(self):
         if os.path.exists(self.save_file_name):
@@ -28,7 +32,7 @@ class Auto_File(object):
     def write_data(self, data):
         file_name = self.save_file_name
         with open(file_name, "a", encoding="utf-8-sig", newline="") as fp:
-            writer = csv.writer(fp)
+            writer = csv.writer(fp, delimiter="	")
             writer.writerow(data)
 
     def process(self):
@@ -43,17 +47,20 @@ class Auto_File(object):
 
     def my_main(self):
         num_list = self.process()
-        for line in num_list:
-            if len(line) > 2:
-                line[3] = line[3][:-1]
-            else:
-                line.insert(1, "")
-                line.insert(2, "")
-                line[3] = line[3][:-1]
-            self.write_data(line)
+        if num_list:
+            for line in num_list:
+                if len(line) > 2:
+                    line[3] = line[3][:-1]
+                else:
+                    line.insert(1, "")
+                    line.insert(2, "")
+                    line[3] = line[3][:-1]
+                self.write_data(line)
+        else:
+            print("停止运行！")
 
 
 if __name__ == "__main__":
-    auto = Auto_File()
+    auto = AutoFile()
     auto.is_exists()
     auto.my_main()
